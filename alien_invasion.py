@@ -14,6 +14,7 @@ class AlienInvasion():
 
         while True:
             gf.check_events(ship)
+            ship.update()
             gf.update_screen(setting, screen, ship)
 
 
